@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "The Colt Ambulance Service";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="service-area pt-70 bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-sm-12">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-left mb-80">
+                        <ul class="breadcrumb bg-white">
+                            <li class="breadcrumb-item"><a class="text-muted" href="@Href("~/")">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-muted" asp-action="Index" asp-controller="Services" asp-route-service="emergency-relief-service">Emergency Relief Services</a></li>
+                        </ul>
+                        
+                        <h2>The Colt Ambulance Service</h2>
+                        <p>
+                            Lungshel is one of remotest village under Gorubathan  Block in Kalimpong District. There is still no metalled road and no vehicle is available at critical hour of need.
+                            Therefore, we provided an ambulance through financial support of ECTA Intl (USA) for Lungshel and adjacent villages.
+                        </p>
+                         
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                     <img class="img-fluid" src="~/assets/img/gallery/ers/AMBULENCE COLT.jpeg" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+

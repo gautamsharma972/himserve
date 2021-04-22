@@ -1,0 +1,67 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "The Rhino Ambulance Emergency Relief Service";
+}
+<div class="slider-area" style="background-image: url('/assets/img/hero/emergency-medical-services-banner.png')">
+    <div class="slider-active">
+        <div class="single-slider slider-height d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+                        <ul class="breadcrumb bg-white">
+                            <li class="breadcrumb-item"><a class="text-muted" href="@Href("~/")">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-muted" asp-action="Index" asp-controller="Services" asp-route-service="emergency-relief-service">Emergency Relief Services</a></li>
+                        </ul>
+                        <div class="hero__caption">
+                            <h1 data-animation="fadeInUp" data-delay=".6s">The Rhino Ambulance<br />Service</h1>
+                            <P data-animation="fadeInUp" data-delay=".8s">
+                                The Rhino is stationed in Barbote in Nimbong  under Kalimpong District. The vehicle is used for transports
+                                of sick people for their higher level check ups, care, diagnosis in nearby cities. 
+                                It is available for 24X7 days.
+                            </P>
+                            <div class="hero__btn">
+                                <a href="#section-more" class="btn hero-btn mb-10" data-animation="fadeInLeft" data-delay=".8s">Read more &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="section-more" class="service-area pt-70 bg-white">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+                <!-- Section Tittle -->
+                <div class="section-tittle text-center mb-80">
+                    <span>About the Service</span>
+                    <h2>The Rhino</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-8">
+                <div class="text-left mb-50">
+
+                    <p>
+                        Purna nimbly pilots The Rhino along the roughest roads in our area of service while Suren (who trained as as an EMT at Navjeevan Hospital) provides patient care. To reach the Subdivisional Hospital in Kalimpong, it is a 3-4 hour drive (one way) on washed out cobblestone roads. Mobile/Cellular service in the area is weak as well further complicating the logistics of providing high quality service to the region. Despite these obstacles Purna and Suren are always at the ready to respond to a community member in need. When not out on a call, Suren assists at a Dispensary run by the Cluny Sisters.
+                        In this spirit of cooperation the Sisters have opened up their facility in return to serve as our ambulance station.
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="/assets/img/gallery/ers/Purna Tamang.jpg" />
+
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+                <iframe class="w-100" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=26.966907,88.562096&amp;aq=0&amp;oq=nimbong&amp;sll=26.96683,88.56092&amp;sspn=0.01136,0.01929&amp;t=h&amp;g=26.966907,88.562096&amp;ie=UTF8&amp;ll=26.966907,88.562096&amp;spn=0.01136,0.01929&amp;z=14&amp;output=embed"></iframe>
+            </div>
+            
+        </div>
+    </div>
+</div>

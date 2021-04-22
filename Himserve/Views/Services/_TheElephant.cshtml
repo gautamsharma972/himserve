@@ -1,0 +1,87 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "The Elephant Ambulance Emergency Relief Service";
+}
+<div class="slider-area" style="background-image: url('/assets/img/hero/emergency-medical-services-banner.png')">
+    <div class="slider-active">
+        <div class="single-slider slider-height d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+                        <ul class="breadcrumb bg-white">
+                            <li class="breadcrumb-item"><a class="text-muted" href="@Href("~/")">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-muted" asp-action="Index" asp-controller="Services" asp-route-service="emergency-relief-service">Emergency Relief Services</a></li>
+                        </ul>
+                        <div class="hero__caption">
+                            <h1 data-animation="fadeInUp" data-delay=".6s">The Elephant Ambulance<br />Service</h1>
+                            <P data-animation="fadeInUp" data-delay=".8s">
+                                The Elephant is stationed in Gitdubling (Kalimpong District). The vehicle is used for transports of 
+                                sick people for their higher level check ups, care, diagnosis in nearby cities. It is available for 24X7 days.
+                            </P>
+                            <div class="hero__btn">
+                                <a href="#section-more" class="btn hero-btn mb-10" data-animation="fadeInLeft" data-delay=".8s">Read more &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="section-more" class="service-area pt-70 bg-white">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+                <!-- Section Tittle -->
+                <div class="section-tittle text-center mb-80">
+                    <span>About the Service</span>
+                    <h2>The Elephant</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-8">
+                <div class="text-left mb-50">
+
+                    <p>
+                        Government Primary Health Centers in remote locations are often understaffed and ill equipped. 
+                        The doctors on the front lines of health face immense challenges to provide the care their patients need and to link them with higher 
+                        level care when needed. Diagnostic equipment is virtually unheard of at these locations and patients must travel hours for simple blood 
+                        tests and X-rays. The Elephant is a mini bus which transports groups of non-critical patients for higher level care and diagnostics in the city.
+                        
+                        This service lowers transport costs for patients (transporting multiple patients at once) and provides a reliable and 
+                        comfortable access to secondary and tertiary facilities.
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="col-md-4">
+                <iframe class="w-100" height="230" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Gitdubling,+West+Bengal,+India&amp;aq=0&amp;oq=Gitd&amp;sll=26.966754,88.562164&amp;sspn=0.01136,0.01929&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Gitdubling,+Darjeeling,+West+Bengal,+India&amp;ll=27.050401,88.598796&amp;spn=0.002838,0.004823&amp;z=14&amp;output=embed"></iframe>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="/assets/img/gallery/ers/Pius Lepcha.jpg" />
+            </div>
+            <div class="col-md-8">
+                <p>
+                    On top of the scheduled transports, Simon Rai and his assistant Piyush are on call to respond to emergencies in the surrounding area.
+                    Stationed at the Government PHC in Git Dubling, they often transport emergency referrals who cannot be taken care of in the large but
+                    spartan facility.
+                </p>
+                <p>
+                    Simon was our first ambulance driver and has been behind the wheel since November 2010.
+                    Despite his reserved and gentle nature, he has the courage and strength to persevere in his demanding profession.
+                    These days he doesn't even grimace when inching The Elephant around the edge of a landslide and laughs it off when he has to
+                    cut down a tree which is blocking the road. Shovels and axes are standard equipment on ambulances in the Himalayas!
+                </p>
+                <p class="font-weight-bold">
+                    Simon trained as an EMT for 6 months at Navjeevan Hospital in Gayaganga.
+                    Not only does he have the skills he needs but also a heart to serve. Simon humbly and consistently sets an example for the entire area.
+                </p>
+                <p><b>(In Pic: Piyush Lepcha)</b></p>
+            </div>
+        </div>
+    </div>
+</div>
